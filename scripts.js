@@ -47,19 +47,19 @@ function convertValue(){
 
     if(currencySelect.value == "dollar"){
         currencyName.innerHTML = "Dólar Americano"
-        currencyImg.src = "/assets/dollar.png"
+        currencyImg.src = "./assets/dollar.png"
     }
     if(currencySelect.value == "euro"){ 
         currencyName.innerHTML = "Euro"
-        currencyImg.src = "/assets/euro.png"
+        currencyImg.src = "./assets/euro.png"
     }
     if(currencySelect.value == "libra"){
         currencyName.innerHTML = "Libra"
-        currencyImg.src = "/assets/libra 1.png"
+        currencyImg.src = "./assets/libra-1.png"
     }
     if(currencySelect.value == "bitcoin"){
         currencyName.innerHTML = "Bitcoin"
-        currencyImg.src = "./assets/bitcoin 1.png"
+        currencyImg.src = "./assets/bitcoin-1.png"
     }
     
 
