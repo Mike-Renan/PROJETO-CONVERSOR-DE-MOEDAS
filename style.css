@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+body{
+    background-color: blueviolet;
+    background-image: url(./assets/pilha-de-moedas-de-ouro-sobre-o-grafico-mercado-de-acoes\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.logo{
+    width: 200px;
+    display: block;
+    margin: 0px auto;
+}
+main{
+    width: 375px;
+    background: #56a0a5;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 44px 24px 23px;    
+}
+
+label{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+select, input{
+    width: 100%;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 24px;
+    padding: 0 16px;
+    font-size: 18px;
+    font-weight: 700;
+    appearance: none;
+    color: #555;
+    cursor: pointer;
+}
+
+button{
+    width: 100%;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    background: #460b4ee0;
+    color: #ffffffcc;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s;
+}
+button:hover{
+    opacity: 0.8;
+}
+button:active{
+    opacity: 0.6;
+}
+
+section{
+    border: 1px solid #66068b;
+    border-radius: 20px;
+    margin-top: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.arrow{
+    margin: 16px 0;
+}
+.currency-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;  
+}
+.currency{
+    color: #fffff6;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.currency-value, .currency-value-to-convert{
+    color: #140744;
+    font-size: 18px;
+    font-weight: 700;
+}
