@@ -98,3 +98,11 @@ section{
     font-size: 18px;
     font-weight: 700;
 }
+
+
+@media (max-width: 768px){
+    body{
+        background-image: none;
+        background-color: #fafafa;
+    }
+}
