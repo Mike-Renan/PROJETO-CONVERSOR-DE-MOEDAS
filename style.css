@@ -102,7 +102,7 @@ section{
 
 @media (max-width: 768px){
     body{
-        background-image: none;
+        background-image: url(./assets/moedas-fundos.jpg);
         background-color: #fafafa;
     }
 }
