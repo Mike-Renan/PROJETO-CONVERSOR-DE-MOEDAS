@@ -8,7 +8,7 @@
 
 body{
     background-color: blueviolet;
-    background-image: url(./assets/moedas-fundos.jpg);
+    background-image: url(../assets/moedas-fundos.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
